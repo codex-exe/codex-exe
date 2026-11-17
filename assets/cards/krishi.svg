@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 292" width="600" height="292" role="img" aria-label="Krishi Junction">
+<title>Krishi Junction</title>
+<defs>
+<radialGradient id="glow" cx="82%" cy="18%" r="70%"><stop offset="0" stop-color="#a3e635" stop-opacity=".20"/><stop offset="1" stop-color="#a3e635" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="600" height="292" rx="20"/></clipPath>
+<linearGradient id="cone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a3e635" stop-opacity=".5"/><stop offset="1" stop-color="#a3e635" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+
+.ping{animation:ping 1.6s ease-out infinite}
+@keyframes ping{0%{opacity:0}25%{opacity:1}70%,100%{opacity:0}}
+.dr{animation:dr 6s ease-in-out infinite}
+@keyframes dr{0%,100%{transform:translate(-20px,0)}50%{transform:translate(70px,6px)}}
+.rot{transform-box:fill-box;transform-origin:center;animation:rot .25s linear infinite}
+@keyframes rot{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.25)}}
+.up{animation:up 1.2s linear infinite}
+@keyframes up{to{stroke-dashoffset:-20}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#card)">
+<rect width="600" height="292" fill="#0b1220"/>
+
+<rect width="600" height="292" fill="url(#glow)"/>
+<g transform="translate(40,26)"><circle cx="430" cy="62" r="20" fill="#facc15" fill-opacity=".9"/><path d="M0,120 H520" stroke="#22304d" stroke-width="1.5"/><path d="M-200,244 L205,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M-120,244 L214,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M-40,244 L224,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M40,244 L234,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M120,244 L243,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M200,244 L253,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M280,244 L262,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M360,244 L272,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M440,244 L282,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M520,244 L291,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M600,244 L301,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><path d="M680,244 L310,120" stroke="#a3e635" stroke-opacity=".5" stroke-width="2"/><g transform="translate(92,214) scale(1.2)"><path d="M0,0 v-14 M0,-9 c-10,-2 -12,-10 -12,-14 c8,0 12,6 12,14 M0,-12 c8,-2 11,-8 11,-13 c-7,0 -11,5 -11,13" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(188,190) scale(1)"><path d="M0,0 v-14 M0,-9 c-10,-2 -12,-10 -12,-14 c8,0 12,6 12,14 M0,-12 c8,-2 11,-8 11,-13 c-7,0 -11,5 -11,13" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(300,206) scale(1.1)"><path d="M0,0 v-14 M0,-9 c-10,-2 -12,-10 -12,-14 c8,0 12,6 12,14 M0,-12 c8,-2 11,-8 11,-13 c-7,0 -11,5 -11,13" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(236,160) scale(0.75)"><path d="M0,0 v-14 M0,-9 c-10,-2 -12,-10 -12,-14 c8,0 12,6 12,14 M0,-12 c8,-2 11,-8 11,-13 c-7,0 -11,5 -11,13" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(352,166) scale(0.8)"><path d="M0,0 v-14 M0,-9 c-10,-2 -12,-10 -12,-14 c8,0 12,6 12,14 M0,-12 c8,-2 11,-8 11,-13 c-7,0 -11,5 -11,13" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(428,212) scale(1.2)"><path d="M0,0 v-14 M0,-9 c-10,-2 -12,-10 -12,-14 c8,0 12,6 12,14 M0,-12 c8,-2 11,-8 11,-13 c-7,0 -11,5 -11,13" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/></g><path d="M140,204 V152" stroke="#e6edf3" stroke-width="3" stroke-linecap="round"/><rect x="128" y="134" width="24" height="20" rx="5" fill="#101a2e" stroke="#e6edf3" stroke-width="2"/><circle cx="140" cy="144" r="3" fill="#a3e635"/><path class="ping" style="animation-delay:0.0s" d="M131.6,121.6 A12,12 0 0 1 148.4,121.6" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/><path class="ping" style="animation-delay:0.25s" d="M124.6,114.6 A22,22 0 0 1 155.4,114.6" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/><path class="ping" style="animation-delay:0.5s" d="M117.6,107.6 A32,32 0 0 1 162.4,107.6" fill="none" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/><g class="dr"><path class="cone" d="M300,60 L262,150 H338 Z" fill="url(#cone)"/><path d="M272,48 H328" stroke="#e6edf3" stroke-width="3" stroke-linecap="round"/><rect x="288" y="42" width="24" height="14" rx="5" fill="#101a2e" stroke="#e6edf3" stroke-width="2"/><ellipse class="rot" cx="272" cy="42" rx="16" ry="3" fill="#8b9bb4"/><ellipse class="rot" cx="328" cy="42" rx="16" ry="3" fill="#8b9bb4"/></g><path d="M36,70 a14,14 0 0 1 14,-18 a18,18 0 0 1 34,2 a13,13 0 0 1 2,26 h-46 a10,10 0 0 1 -4,-10 z" fill="#101a2e" stroke="#8b9bb4" stroke-width="2"/><path class="up" d="M126,126 C100,112 86,100 74,86" fill="none" stroke="#a3e635" stroke-width="2" stroke-dasharray="3 7" stroke-linecap="round"/></g>
+</g>
+<rect x=".5" y=".5" width="599" height="291" rx="20" fill="none" stroke="#22304d"/>
+</svg>

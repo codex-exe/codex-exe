@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 292" width="600" height="292" role="img" aria-label="PPO Sleep Signature">
+<title>PPO Sleep Signature</title>
+<defs>
+<radialGradient id="glow" cx="82%" cy="18%" r="70%"><stop offset="0" stop-color="#818cf8" stop-opacity=".20"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="600" height="292" rx="20"/></clipPath>
+
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+
+.hyp{animation:hyp 7s ease-in-out infinite}
+@keyframes hyp{0%{stroke-dashoffset:772}60%,100%{stroke-dashoffset:0}}
+.star{animation:tw 2.7s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#card)">
+<rect width="600" height="292" fill="#0b1220"/>
+
+<rect width="600" height="292" fill="url(#glow)"/>
+<g transform="translate(40,26)"><text x="64" y="88" font-size="12" fill="#5b6b86" text-anchor="end" class="mono">awake</text><path d="M78,84 H508" stroke="#22304d" stroke-width="1" stroke-dasharray="2 6"/><text x="64" y="121" font-size="12" fill="#5b6b86" text-anchor="end" class="mono">REM</text><path d="M78,117 H508" stroke="#22304d" stroke-width="1" stroke-dasharray="2 6"/><text x="64" y="154" font-size="12" fill="#5b6b86" text-anchor="end" class="mono">light</text><path d="M78,150 H508" stroke="#22304d" stroke-width="1" stroke-dasharray="2 6"/><text x="64" y="190" font-size="12" fill="#5b6b86" text-anchor="end" class="mono">deep</text><path d="M78,186 H508" stroke="#22304d" stroke-width="1" stroke-dasharray="2 6"/><path class="hyp" d="M78,84 H120 V150 H164 V186 H224 V150 H262 V117 H302 V150 H346 V186 H394 V150 H430 V117 H468 V84 H508" fill="none" stroke="#818cf8" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="772"/><path d="M40,22 a22,22 0 1 0 22,30 a17,17 0 1 1 -22,-30 z" fill="#fde68a"/><circle class="star" style="animation-delay:0.0s" cx="110" cy="30" r="2" fill="#fde68a"/><circle class="star" style="animation-delay:0.45s" cx="170" cy="48" r="1.5" fill="#fde68a"/><circle class="star" style="animation-delay:0.9s" cx="236" cy="24" r="2" fill="#fde68a"/><circle class="star" style="animation-delay:1.35s" cx="318" cy="44" r="1.5" fill="#fde68a"/><circle class="star" style="animation-delay:1.8s" cx="402" cy="26" r="2" fill="#fde68a"/><circle class="star" style="animation-delay:2.25s" cx="470" cy="46" r="1.5" fill="#fde68a"/><text x="78" y="222" font-size="12" fill="#5b6b86" class="mono">22:00</text><text x="508" y="222" font-size="12" fill="#5b6b86" class="mono" text-anchor="end">06:00</text></g>
+</g>
+<rect x=".5" y=".5" width="599" height="291" rx="20" fill="none" stroke="#22304d"/>
+</svg>

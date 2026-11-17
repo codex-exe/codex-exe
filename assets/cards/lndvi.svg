@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 292" width="600" height="292" role="img" aria-label="LNDVI">
+<title>LNDVI</title>
+<defs>
+<radialGradient id="glow" cx="82%" cy="18%" r="70%"><stop offset="0" stop-color="#34d399" stop-opacity=".20"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="600" height="292" rx="20"/></clipPath>
+<linearGradient id="ndvi" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ef4444"/><stop offset=".5" stop-color="#facc15"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+
+.lbox{animation:ldraw 6s ease-in-out infinite}
+@keyframes ldraw{0%,10%{stroke-dashoffset:304}35%,100%{stroke-dashoffset:0}}
+.lmask{animation:lfill 6s ease-in-out infinite}
+@keyframes lfill{0%,35%{fill-opacity:0}55%,100%{fill-opacity:.8}}
+.ltile{animation:lhi 6s linear infinite}
+.t1{animation-delay:1.2s}.t2{animation-delay:2.4s}.t3{animation-delay:3.6s}
+@keyframes lhi{0%,22%,100%{stroke:#22304d}6%,16%{stroke:#34d399}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#card)">
+<rect width="600" height="292" fill="#0b1220"/>
+
+<rect width="600" height="292" fill="url(#glow)"/>
+<g transform="translate(40,26)"><g><rect class="ltile t0" x="8" y="56" width="108" height="108" rx="14" fill="#101a2e" stroke="#22304d" stroke-width="1.5"/><g transform="translate(62,110)"><path d="M0,-34 C24,-22 28,10 0,34 C-28,10 -24,-22 0,-34 Z" fill="none" stroke="#5b6b86" stroke-width="2.5"/><path d="M0,-28 L0,30" stroke="#5b6b86" stroke-width="1.5"/></g><text x="62" y="188" font-size="13" fill="#8b9bb4" text-anchor="middle">RGB image</text></g><path d="M124,110 h10 m-5,-5 l5,5 l-5,5" fill="none" stroke="#5b6b86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g><rect class="ltile t1" x="140" y="56" width="108" height="108" rx="14" fill="#101a2e" stroke="#22304d" stroke-width="1.5"/><g transform="translate(194,110)"><path d="M0,-34 C24,-22 28,10 0,34 C-28,10 -24,-22 0,-34 Z" fill="none" stroke="#5b6b86" stroke-width="2.5"/><path d="M0,-28 L0,30" stroke="#5b6b86" stroke-width="1.5"/><rect class="lbox" x="-34" y="-42" width="68" height="84" rx="4" fill="none" stroke="#34d399" stroke-width="2.5" stroke-dasharray="304" /><rect x="-34" y="-58" width="50" height="16" rx="3" fill="#34d399"/><text x="-29" y="-46" font-size="11" font-weight="700" fill="#0b1220" class="mono">plant</text></g><text x="194" y="188" font-size="13" fill="#8b9bb4" text-anchor="middle">Grounding DINO</text></g><path d="M256,110 h10 m-5,-5 l5,5 l-5,5" fill="none" stroke="#5b6b86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g><rect class="ltile t2" x="272" y="56" width="108" height="108" rx="14" fill="#101a2e" stroke="#22304d" stroke-width="1.5"/><g transform="translate(326,110)"><path class="lmask" d="M0,-34 C24,-22 28,10 0,34 C-28,10 -24,-22 0,-34 Z" fill="#34d399" stroke="#34d399" stroke-width="2.5"/></g><text x="326" y="188" font-size="13" fill="#8b9bb4" text-anchor="middle">Segment Anything</text></g><path d="M388,110 h10 m-5,-5 l5,5 l-5,5" fill="none" stroke="#5b6b86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g><rect class="ltile t3" x="404" y="56" width="108" height="108" rx="14" fill="#101a2e" stroke="#22304d" stroke-width="1.5"/><g transform="translate(458,110)"><path d="M0,-34 C24,-22 28,10 0,34 C-28,10 -24,-22 0,-34 Z" fill="url(#ndvi)" stroke="#0b1220" stroke-width="1"/><path d="M0,-28 L0,30" stroke="#0b1220" stroke-opacity=".45" stroke-width="1.5"/></g><text x="458" y="188" font-size="13" fill="#8b9bb4" text-anchor="middle">LNDVI score</text></g></g>
+</g>
+<rect x=".5" y=".5" width="599" height="291" rx="20" fill="none" stroke="#22304d"/>
+</svg>
